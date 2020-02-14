@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>ContinuousProject_SP</title>
+
+    <link href="stylesheets/jatkuvaDesktop.css" rel="stylesheet" media="only screen and (min-width: 1024px)">
+    <link href="stylesheets/jatkuvaTablet.css" rel="stylesheet" media="only screen and (min-width: 320px) and (max-width: 1024px)">
+    <link href="stylesheets/jatkuvaMobile.css" rel="stylesheet" media="only screen and (min-width: 0px) and (max-width: 320px)">
+
+</head>
+
+<body> 
+    <h1>My Study Plan</h1>
+
+    <div id="grid" class="wrapper">
+
+        <div class="one">
+        <h2>Add Study Topics</h4>
+        <form>
+            <table>
+                <tr><td>Topic</td><td><input id="title"></td></tr>
+                <tr><td>Description</td><td><input id="description"></td></tr>
+                <tr><td>Time to master (hours)</td><td><input id="timeToMaster" type="number"></td></tr>
+                <tr><td type>Time spent (hours)</td><td><input id="timeSpent" type="number"></td></tr>
+                <tr><td>Source</td><td><input id="source"></td></tr>
+                <tr><td>Start date</td><td><input id="startDate" type="date"></td></tr>
+                <tr><td>In progress</td><td><select id="inProgress"><option value="Yes">Yes</option><option value="No">No</option></select></td></tr>
+                <tr><td>completion date</td><td><input id="completionDate" type="date"></td></tr>
+                
+                <tr><td></td><td><input type="button" id="createbtn" value="Create Topic"></td></tr>
+            </table>
+        </form>
+        </div>
+
+        <div class="two">
+            <h2>List of Study Topics</h4>
+            <button id="getbtn">Get List</button>
+            <ul id="topiclist"></ul>
+        </div>
+    
+   
+        <div class="three" id="editform">
+        <h2>Edit Study Topic</h4>
+            <table>
+                <tr><td>Topic</td><td><input id="edittitle"></td></tr>
+                <tr><td>Description</td><td><input id="editdescription"></td></tr>
+                <tr><td>Time to master (hours)</td><td><input id="edittimeToMaster" type="number"></td></tr>
+                <tr><td type>Time spent (hours)</td><td><input id="edittimeSpent" type="number"></td></tr>
+                <tr><td>Source</td><td><input id="editsource"></td></tr>
+                <tr><td>Start date</td><td><input id="editstartDate" type="date"></td></tr>
+                <tr><td>In progress</td><td><select id="editinProgress"><option value="Yes">Yes</option><option value="No">No</option></select></td></tr>
+                <tr><td>completion date</td><td><input id="editcompletionDate" type="date"></td></tr>
+
+                <tr><td></td><td><input type="button" id="savebtn" value="Save Changes"><input type="button" id="deletebtn" value="Delete Topic"></td></tr>
+            </table>
+        </div>
+
+    </div>
+</body>
+
+<script src="javascripts/restclient.js"></script>
+
+</html>

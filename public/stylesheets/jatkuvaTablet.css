@@ -1,0 +1,67 @@
+body {
+    padding: 50px;
+    font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+    background-image: url("/jskoodia.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    text-align: center;
+    /* background-size: 650px 740px; */
+    background-color: rgba(9, 75, 95, 0.3);
+    background-size: cover;
+  }
+  
+  a {
+    color: #00B7FF;
+  }
+  
+  #editform {
+    display: none;
+  }
+  
+  *.grid {
+    margin: 0 auto; 
+    text-align: center;
+    justify-content: center;
+  }
+  
+  .wrapper {
+  display: grid;
+  height: 100px;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 15px;
+  grid-auto-rows: repeat(3, 1fr);
+  }
+  
+  .wrapper > div {
+  background-color: rgb(73, 144, 185);
+  padding: 1em;
+  border-radius: 5px;
+  border: 1px solid black;
+  }
+  
+  .one {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+  }
+  
+  .two { 
+    grid-column: 2 / 4;
+    grid-row: 1 / 4;
+  }
+  
+  .three {
+    grid-column: 1 / 2;
+    grid-row: 2;
+  }
+  
+  ul { 
+    text-align: left;
+  }
+  
+  * {
+  box-sizing: border-box;
+  }
+  
+  input {
+    text-align: center;
+      }

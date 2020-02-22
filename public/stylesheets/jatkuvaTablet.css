@@ -1,12 +1,9 @@
 body {
     padding: 50px;
     font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
-    background-image: url("/jskoodia.jpg");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
     text-align: center;
     /* background-size: 650px 740px; */
-    background-color: rgba(9, 75, 95, 0.3);
+    background-color:black;
     background-size: cover;
   }
   
@@ -33,7 +30,7 @@ body {
   }
   
   .wrapper > div {
-  background-color: rgb(73, 144, 185);
+  background-color: rgb(225, 235, 143);
   padding: 1em;
   border-radius: 5px;
   border: 1px solid black;
@@ -54,6 +51,10 @@ body {
     grid-row: 2;
   }
   
+  h1 {
+    color: rgb(224, 241, 124);
+  }
+
   ul { 
     text-align: left;
   }

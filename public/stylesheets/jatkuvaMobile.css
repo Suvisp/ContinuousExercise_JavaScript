@@ -1,9 +1,6 @@
 body {
     padding: 10px;
     font: 12px "Lucida Grande", Helvetica, Arial, sans-serif;
-    background-image: url("/jskoodia.jpg");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
     text-align: center;
     /* background-size: 650px 740px; */
     background-color:black;
@@ -57,6 +54,7 @@ body {
   h1 {
     color: rgb(224, 241, 124);
   }
+  
   ul { 
     text-align: left;
 

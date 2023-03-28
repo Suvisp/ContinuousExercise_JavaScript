@@ -1,2 +1,3 @@
 # ContinuousExercise
- Continuous exercise with JavaScript
+
+ My Continuous Project / First version with JavaScript
